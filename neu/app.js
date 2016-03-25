@@ -21,6 +21,8 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.set('port', (process.env.PORT || 5000));
+
 app.use('/', routes);
 app.use('/users', users);
 
@@ -53,6 +55,10 @@ app.use(function(err, req, res, next) {
         message: err.message,
         error: {}
     });
+});
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
 
 
