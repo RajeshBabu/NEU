@@ -13,7 +13,6 @@ var client = new pg.Client({
 }); 
 client.connect();
 
-
 /* Post users listing. */
 router.post('/', function(req, res) {
    var username   = req.body.username;
