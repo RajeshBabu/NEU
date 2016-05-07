@@ -83,7 +83,7 @@ ul {
 ============================================================ */
 h1 {
 	color: #ff6850;
-	font: 300 30px/32px 'Abel', sans-serif;
+	font: 300 35px/37px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
@@ -237,7 +237,7 @@ p {
 	margin-right: 0 !important;
 }
 .wrapper {
-	width: 1120px;
+	width: 1110px;
 	margin: 0 auto;
 }
 .wrapper.flx-line {
