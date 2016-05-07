@@ -1,0 +1,56 @@
+/* CSS INFORMATION
+	- Project: Media Star
+	- Author: FelixPlus - www.felixplus.com
+	- Last Update: 22/03/2013
+*/
+
+.breadcrumb,
+#contact_message,
+#contact_name,
+#contact_email,
+#contact_url,
+#submit-contact,
+pagination ul > li:first-child > a, 
+.pagination ul > li:first-child > span,
+.pagination ul > li:last-child > a, 
+.pagination ul > li:last-child > span,
+.widget_search #searchform #s,
+#sidebar .widget_tag_cloud .tagcloud a,
+.entry-box .widget_tag_cloud .tagcloud a,
+.regular-radio + label,
+.regular-checkbox + label,
+.flx-dropcap.flx-color,
+.flx-dropcap.flx-cricle,
+.the-icons li,
+.error-404-left .search-form .input-search-text .search-text,
+.newsletter-form .email,
+#comment_message,
+#comment_name,
+#comment_url,
+#comment_email,
+#submit-comment,
+.pricing-special,
+.pricing-special .pricing-header,
+.ei-slider-thumbs li.ei-slider-element,
+.ei-slider-thumbs li a,
+.iview-caption.caption3,
+.regular-radio:checked + label {
+	behavior: url(js/PIE.htc);
+}
+
+.flickr-badge-image {
+	width:70px;
+}
+.iview-caption.caption2,
+.iview-caption.caption3 {
+	width:500px !important;
+}
+.widget_search #searchform #s {
+	height:32px;
+	line-height:32px;
+}
+.blog-style-2 .post-item .mejs-video img {
+	width:250px !important;
+	height:250px !important;
+}
+

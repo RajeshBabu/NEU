@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'NETAJI EMPLOYEE UNION (Lakshminarayana Puram)' });
+  res.render('index2', { title: 'NETAJI EMPLOYEE UNION (Lakshminarayana Puram)' });
 });
 
 module.exports = router;

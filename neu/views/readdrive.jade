@@ -1,0 +1,31 @@
+block content
+ include ../public/voterslist.html
+
+ each voter, i in voters
+  if( i>3 && i<31)
+   li(class="item" data-id="id-#{i}" data-type="photo")
+      div
+       ul
+           include ../public/voter_item.html
+           each info, j in voter
+              li
+                if(j == 1)
+                  h6 S.NO : #{info}
+                else if( j==2)
+                 h6 Voter Id : #{info}
+                else if(j==3)
+                 h6 Name :  #{info}
+                else if(j==4)
+                 h6 #{info}                
+                else if(j == 6)
+                 h6 H.No: #{info}
+                else if(j ==7)
+                 h6 Age : #{info}
+                else if(j==8)
+                 h6 Sex : #{info}
+  
+ include ../public/voterslist_footer.html
+
+
+
+

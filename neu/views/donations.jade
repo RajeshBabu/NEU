@@ -1,0 +1,23 @@
+block content
+ include ../public/donations.html
+
+ each voter, i in voters
+  if( i>1 && i<31)
+   li(class="item" data-id="id-#{i}" data-type="photo")
+      div
+       ul
+           include ../public/voter_item.html
+           each info, j in voter
+              li
+                if(j == 1)
+                  h6 S.NO : #{info}
+                else if( j==2)
+                 h6 Name : #{info}
+                else if(j==3)
+                 h6 Amount : Rs.#{info}              
+  
+ include ../public/voterslist_footer.html
+
+
+
+

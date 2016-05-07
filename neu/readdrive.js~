@@ -1,0 +1,29 @@
+var Spreadsheet = require('edit-google-spreadsheet');
+
+Spreadsheet.load({
+    debug: true,
+    spreadsheetId: '1hl_aV6uatHBYQebUemRWlWhCjwlT66rzPbSDB0qVo-o',
+    worksheetName: 'Voters',
+
+    oauth : {
+        email: 'driveapis@neulnp-4342.iam.gserviceaccount.com',
+        keyFile: 'neulnp.pem'
+    }
+
+}, function sheetReady(err, spreadsheet) {
+
+    if (err) {
+        throw err;
+    }
+
+    spreadsheet.receive(function(err, rows, info) {
+        if (err) {
+            throw err;
+        }
+
+        console.dir(rows[9]);
+        //console.dir(info);
+    });
+
+});
+
