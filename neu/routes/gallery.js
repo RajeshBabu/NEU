@@ -4,11 +4,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-
 Spreadsheet.load({
     debug: true,
-    spreadsheetId: '1XJNdCE4wWMUbis6vRWcH8iYSWm-b2pP3Ah-Q3X7seyg',
-    worksheetName: 'Featureplans',
+    spreadsheetId: '1uVeclWMeuswX3WR-7a5cmV54MxRv6K7lbBmihfOb5ec',
+    worksheetName: 'Donations',
     worksheetId:'od6',
 
     oauth : {
@@ -30,7 +29,7 @@ Spreadsheet.load({
         console.dir(rows[9]);
 //Object.keys(rows[9]).forEach(function(key) {
  // var val =rows[9][2];
-        res.render('future_plans', { voters:rows});
+        res.render('gallery', { voters:rows});
 //});
 
         //console.dir(info);

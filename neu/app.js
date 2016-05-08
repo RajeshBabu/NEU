@@ -12,6 +12,7 @@ var votersList = require('./routes/readdrive');
 var unionmembers = require('./routes/unionmembers');
 var donations = require('./routes/donations');
 var future_plans = require('./routes/future_plans');
+var gallery = require('./routes/gallery');
 
 var app = express();
 
@@ -50,6 +51,7 @@ app.use('/lnp/voters', votersList);
 app.use('/lnp/union_members', unionmembers);
 app.use('/lnp/donations', donations);
 app.use('/lnp/future_plans', future_plans);
+app.use('/lnp/gallery', gallery);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {

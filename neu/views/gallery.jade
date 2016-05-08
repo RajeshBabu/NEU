@@ -1,0 +1,17 @@
+block content
+ include ../public/gallery.html
+ each voter, i in voters
+  if( i>=2)
+     each info, j in voter
+       if(j == 1)
+         li(data-transition="fade" data-slotamount="10" data-masterspeed="100")    
+           <img src="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}" width="1200" height="480"></img> 
+       else if(j==2)
+          div(class="caption lfl very_big_white"  data-x="0" data-y="216" data-speed="300" data-start="1200" data-easing="easeOutExpo")
+            #{info} 
+ include ../public/gallery_bottom.html
+
+
+
+
+
