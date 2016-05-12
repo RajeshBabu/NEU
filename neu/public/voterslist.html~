@@ -86,12 +86,11 @@
                             	<a href="history.html"><i class="icon-picture"></i> History</a>
                                  </li>
                              <li>
-                           	<a href="/lnp/gallery"><i class="icon-picture"></i> Gallery</a>
-
-                                 </li>
-<li>
-                            	<a href="/lnp/ancestors"><i class="icon-picture"></i> Ancestors</a>
-                                 </li>
+                           	<a href="#"><i class="icon-picture"></i> Gallery</a>
+                                    <ul>
+                                    <li><a href="/lnp/ancestors">Ancestors</a></li>                                   
+                                </ul>
+                                 </li>                                
                             <li>
                             <li>
                             	<a href="about-me.html"><i class="icon-picture"></i> About Me</a>
