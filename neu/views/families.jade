@@ -1,0 +1,18 @@
+block content
+ include ../public/ancestors.html
+ each voter, i in voters
+  if( i>=2)
+   li
+     each info, j in voter      
+       if(j == 1)         
+          <img class="img-circle" src="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}"></img>  
+       else if(j == 2)
+          h6(style="font-weight: bold;")
+           center
+            '#{info}'
+ include ../public/ancestors_bottom.html
+
+
+
+
+

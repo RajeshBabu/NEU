@@ -89,8 +89,9 @@
                            	<a href="#"><i class="icon-picture"></i> Gallery</a>
                                     <ul>
                                     <li><a href="/lnp/ancestors">Ancestors</a></li>  
-                                    <li><a href="/lnp/gallery">Latest</a></li>                                 
-                                </ul>
+                                    <li><a href="/lnp/gallery">Latest</a></li> 
+                                     <li><a href="/lnp/gallery">Families</a></li> 
+                                   </ul>
                                  </li>                                
                             <li>
                             <li>
