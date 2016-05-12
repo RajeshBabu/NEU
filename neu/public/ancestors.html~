@@ -83,13 +83,12 @@
                             <li>
                             	<a href="history.html"><i class="icon-picture"></i> History</a>
                                  </li>
-                             <li class="current-menu-item">
+                             <li >
                             	<a href="gallery.html"><i class="icon-picture"></i> Gallery</a>
                                  </li>
-                                <li>
+                             <li class="current-menu-item">
                             	<a href="/lnp/ancestors"><i class="icon-picture"></i> Ancestors</a>
                                  </li>
-                            <li>
                             <li>
                             	<a href="about-me.html"><i class="icon-picture"></i> About Me</a>
                                  </li>
@@ -106,9 +105,14 @@
     
     <div id="main-content">
         
-        <div class="fullwidthbanner-container">
-            <div class="fullwidthbanner">
-                <ul>                  
-
-
+      <section class="widget logo-client-widget flx-divider">
+        
+        	<div class="wrapper">
+            	
+                <div class="row-fluid">
+                	
+                    <div class="span12">
+                    	
+                        <ul class="logo-client clearfix">      
+                        
 
