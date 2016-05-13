@@ -88,9 +88,9 @@
 
                                    <a href="#"><i class="icon-picture"></i> Gallery</a>
                                     <ul>
-                                        <li><a href="/lnp/ancestors">Ancestors</a></li>   
+                                        <li><a href="/lnp/ancestors">Our Ancestors</a></li>   
                                   <li><a href="/lnp/gallery">Latest</a></li>     
-                                     <li><a href="/lnp/families">Families</a></li>                                                               
+                                     <li><a href="/lnp/families">Our Families</a></li>                                                               
                                     </ul>
 
                                  </li>
@@ -118,7 +118,7 @@
                 	
                     <div class="span12">
                         
-                        <h2 class="widget-title">Donations for Library</h2>
+                        <h2 class="widget-title"><center>Donations for Library</center></h2>
                         
                         <ul class="pf-box ourHolder clearfix">
                            
