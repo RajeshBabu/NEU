@@ -4359,6 +4359,12 @@ ul.ourHolder li.item {
 	height:570px;
 	border-bottom:1px solid #D5E3E8;
 }
+.flx-shop-page .fullwidthbanner-families-container {
+	max-height:1570px !important;
+	height:1570px;
+	border-bottom:1px solid #D5E3E8;
+}
+
 
 #slider-range.ui-corner-all {
 	border-radius:0 !important;
