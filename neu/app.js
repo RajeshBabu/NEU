@@ -15,6 +15,7 @@ var future_plans = require('./routes/future_plans');
 var gallery = require('./routes/gallery');
 var ancestors = require('./routes/ancestors');
 var families = require('./routes/families');
+var history = require('./routes/history');
 
 var app = express();
 
@@ -56,6 +57,7 @@ app.use('/lnp/future_plans', future_plans);
 app.use('/lnp/gallery', gallery);
 app.use('/lnp/ancestors',ancestors);
 app.use('/lnp/families',families);
+app.use('/lnp/history',history);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
