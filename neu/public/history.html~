@@ -51,8 +51,13 @@
 * Please keep this notice intact.
 * Visit http://www.dynamicdrive.com/ for full source code
 ***********************************************/
-
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) { // escape key maps to keycode `27`
+            thumbnailviewer.closeit()
+    }
+});
 </script>
+
 </head>
 <body class="main-portfolio dark-footer">
     

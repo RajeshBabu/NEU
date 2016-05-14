@@ -11,7 +11,7 @@ defineLoading: '<img src="loading.gif" /> Loading Image...', //Define HTML for "
 
 /////////////No need to edit beyond here/////////////////////////
 
-scrollbarwidth: 16,
+scrollbarwidth: 10,
 opacitystring: 'filter:progid:DXImageTransform.Microsoft.alpha(opacity=10); -moz-opacity: 0.1; opacity: 0.1',
 targetlinks:[], //Array to hold links with rel="thumbnail"
 
@@ -156,3 +156,4 @@ this.dotask(window, function(){if (thumbnailviewer.thumbBox.style.visibility=="v
 thumbnailviewer.createthumbBox() //Output HTML for the image thumbnail viewer
 thumbnailviewer.dotask(window, function(){thumbnailviewer.init()}, "load") //Initialize script on page load
 thumbnailviewer.dotask(window, function(){thumbnailviewer.cleanup()}, "unload")
+
