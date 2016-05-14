@@ -7,7 +7,7 @@ block content
       each info, j in voter      
         if(j == 1) 
           td(valign="top" style="width:20%;")
-            <a id="p1" href="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}"><img   src="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}" width="400" height = "400"></img></a>  
+            <a id="p1" href="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}" rel="thumbnail"><img   src="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}" width="400" height = "400"></img></a>  
         else if(j == 2)
           td(style="vertical-align:top;margin-right:30px")
             p(style="margin-left:30px;color:black;font-size:medium") #{info}
