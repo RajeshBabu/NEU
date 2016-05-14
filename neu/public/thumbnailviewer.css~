@@ -1,0 +1,38 @@
+#thumbBox{ /*Outermost DIV for thumbnail viewer*/
+position: absolute;
+left: 0;
+top: 0;
+width: 400;
+padding: 10px;
+padding-bottom:100;
+background: #313131;
+visibility: hidden;
+z-index: 5;
+cursor: hand;
+cursor: pointer;
+}
+
+#thumbBox .footerbasr{ /*Footer DIV of thumbbox that contains "close" link */
+position: absolute;
+visibility: hidden;
+border: 1px solid black;
+font: bold 12px Tahoma;
+color: white;
+background-color: #EFEFEF;
+padding: 5px;
+z-index: 5;
+}
+
+
+#thumbBox #thumbImage{ /*DIV within thumbbox that holds the enlarged image */
+background-color: white;
+}
+
+#thumbLoading{ /*DIV for showing "loading" status while thumbbox is being generated*/
+position: absolute;
+visibility: hidden;
+border: 1px solid black;
+background-color: #EFEFEF;
+padding: 5px;
+z-index: 5;
+}
