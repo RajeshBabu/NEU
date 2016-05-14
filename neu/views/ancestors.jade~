@@ -5,7 +5,7 @@ block content
    li
      each info, j in voter      
        if(j == 1)         
-        <a herf="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}" rel="thumbnail">  <img class="img-circle" src="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}"></img> </a> 
+        <a herf="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}" rel="thumbnail">  <img src="https://3b81b9923466b0f8060ad421d888aae88b28424d.googledrive.com/host/0B_-sEuumZ8LlSXViMlFRVGliSVk/#{info}"></img> </a> 
        else if(j == 2)
           h6(style="font-weight: bold;")
            center

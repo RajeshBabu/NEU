@@ -37,9 +37,8 @@ var docheightcomplete=(this.standardbody.offsetHeight>this.standardbody.scrollHe
 var objwidth=divobj.offsetWidth //width of div element
 var objheight=divobj.offsetHeight //height of div element
 var topposition=(docheight>objheight)? scroll_top+docheight/2-objheight/2+"px" : scroll_top+10+"px" //Vertical position of div element: Either centered, or if element height larger than viewpoint height, 10px from top of viewpoint
-divobj.style.left=200+"px" //Center div element horizontally
-divobj.style.top=100+"px"
-divobj.style.right=200+"px"
+divobj.style.left=docwidth/2-objwidth/2+"px" //Center div element horizontally
+divobj.style.top=Math.floor(parseInt(topposition))+"px"
 divobj.style.visibility="visible"
 },
 
