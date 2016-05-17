@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8" />
 	<title>NEU-LNP</title>
-	<meta name="description" content="Grid - Responsive Html5 Portfolio Template" />
-	<meta name="author" content="Felixplus - www.felixplus.com" />
-	<meta name="keywords" content="justapps,android,iphone,ios,free android apps,top 10 apps in android,top 10 apps in ios,mobile apps"/>
+	<meta name="description" content="LNPuram, lakshminarayanapuram" />
+	<meta name="author" content="Rajesh, rajesh babu" />
+	<meta name="keywords" content="Rajesh, babu, rajesh babu, polamarasetti, lnpuram, lakshminarayanapuram, laxminarayanapuram, gowri devi, rajesh babu polamarasetti, lnpuram.in, lnpuram in, lnpuram.com"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
@@ -172,14 +172,15 @@
                     	
                         <ul class="logo-client clearfix">
 
-                      <li><a href="#"><img class="img-circle" src="placeholders/logo-client/pandurangarao.jpeg"><h6 style="font-weight: bold;">Netaji Employee Union President - Sri Pandu Rangarao Garu.</h6></a></li> 
-                            <li><a href="#"><img class="img-circle" src="placeholders/logo-client/mohanrao.jpg"><h6 style="font-weight: bold;">Netaji Employee Union Founder - Sri Polamarasetti Mohan Rao Garu.</h6></a></li>
-                      <li><a href="#"><img class="img-circle" src="placeholders/logo-client/appala_raju.png"><h6 style="font-weight: bold;">MPTC - Sri Polamarasetti Appala Raju Garu.</h6></a></li>
-                       <li><a href="#"><img class="img-circle" src="placeholders/logo-client/srinu.png" ><h6 style="font-weight: bold;">Panchayat President - Sri Polamarasetti Srinivasarao Garu.</h6></a></li>
+                      <li><a href="#"><img class="img-circle" src="placeholders/logo-client/pandurangarao.jpeg"><h6>Netaji Employee Union President - Sri Pandu Rangarao Garu.</h6></a></li> 
+                            <li><a href="#"><img class="img-circle" src="placeholders/logo-client/mohanrao.jpg"><h6>Netaji Employee Union Founder - Sri Polamarasetti Mohan Rao Garu.</h6></a></li>
+<li><a href="#"><img class="img-circle" src="placeholders/logo-client/nageswararao.png"><h6>Attili Market Yard Member - Sri Polamarasetti Nageswara Rao Garu.</h6></a></li>
+                      <li><a href="#"><img class="img-circle" src="placeholders/logo-client/appala_raju.png"><h6>MPTC - Sri Polamarasetti Appala Raju Garu.</h6></a></li>
+                       <li><a href="#"><img class="img-circle" src="placeholders/logo-client/srinu.png" ><h6>Panchayat President - Sri Polamarasetti Srinivasarao Garu.</h6></a></li>
 
-                            <li><a href="#"><img class="img-circle" src="placeholders/logo-client/dhanarao.png"><h6 style="font-weight: bold;">Sri Gowri Sankara Committe President - Sri Polamarasetti Dhana Rao Garu.</h6></a></li>
-                            <li><a href="#"><img class="img-circle" src="placeholders/logo-client/venkateswarao.png"><h6 style="font-weight: bold;">Sri Vigneswara Committe President - Sri Doddi Venkateswarao Garu.</h6></a></li>
-<li><a href="#"><img class="img-circle" src="placeholders/logo-client/durga_temple_president.png"><h6 style="font-weight: bold;">Sri Durga Devi Committe President - Sri Boddeti Siva Garu.</h6></a></li>
+                            <li><a href="#"><img class="img-circle" src="placeholders/logo-client/dhanarao.png"><h6>Sri Gowri Sankara Committe President - Sri Polamarasetti Dhana Rao Garu.</h6></a></li>
+                            <li><a href="#"><img class="img-circle" src="placeholders/logo-client/venkateswarao.png"><h6>Sri Vigneswara Committe President - Sri Doddi Venkateswarao Garu.</h6></a></li>
+<li><a href="#"><img class="img-circle" src="placeholders/logo-client/durga_temple_president.png"><h6>Sri Durga Devi Committe President - Sri Boddeti Siva Garu.</h6></a></li>
 
                         </ul><!--logo-client-->
                         
