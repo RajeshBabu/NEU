@@ -113,7 +113,7 @@ h5 {
 }
 h6 {
 	color: #000000;
-	font: 300 15px/18px 'Abel', sans-serif;
+	font: 300 12px/13px 'Abel', sans-serif;
 	letter-spacing: 0;
 	margin-bottom: 5px;
 }
@@ -4360,8 +4360,8 @@ ul.ourHolder li.item {
 	border-bottom:1px solid #D5E3E8;
 }
 .flx-shop-page .fullwidthbanner-families-container {
-	max-height:570px !important;
-	height:100px;
+	max-height:1570px !important;
+	height:1570px;
 	border-bottom:1px solid #D5E3E8;
 }
 
