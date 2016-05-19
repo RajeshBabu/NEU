@@ -106,7 +106,7 @@
                             	<a href="about-me.html"><i class="icon-picture"></i> About Me</a>
                                  </li>
                            
-                                                    </ul><!--end:main-menu-->			
+                       </ul><!--end:main-menu-->			
                     </nav><!--end:main-nav-->
                     
                 </div><!--end:span12-->
@@ -171,10 +171,7 @@
                 	
                     <div class="span12">
                     	
-                        <ul class="logo-client clearfix">
-
-                      <li><a href="placeholders/logo-client/pandurangarao.jpeg" rel="thumbnail"><img class="img-circle" src="placeholders/logo-client/pandurangarao.jpeg"><h6>Netaji Employee Union President - Sri Pandu Rangarao Garu.</h6></a></li> 
-                            <li><a href="placeholders/logo-client/mohanrao.jpg" rel="thumbnail"><img class="img-circle" src="placeholders/logo-client/mohanrao.jpg"><h6>Netaji Employee Union Founder - Sri Polamarasetti Mohan Rao Garu.</h6></a></li>
+                        <ul class="logo-client clearfix">                      
 <li><a href="placeholders/logo-client/nageswararao.png" rel="thumbnail" ><img class="img-circle" src="placeholders/logo-client/nageswararao.png"><h6>Attili Market Yard Director - Sri Polamarasetti Nageswara Rao Garu.</h6></a></li>
                       <li><a href="placeholders/logo-client/appala_raju.png" rel="thumbnail"><img class="img-circle" src="placeholders/logo-client/appala_raju.png"><h6>MPTC - Sri Polamarasetti Appala Raju Garu.</h6></a></li>
                        <li><a href="placeholders/logo-client/srinu.png" rel="thumbnail"><img class="img-circle" src="placeholders/logo-client/srinu.png" ><h6>Panchayat President - Sri Polamarasetti Srinivasarao Garu.</h6></a></li>
